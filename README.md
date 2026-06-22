@@ -21,7 +21,7 @@
 
 | 方法 | Pass@1 | Pass@8 |
 |------|--------|--------|
-| DeepSeek V3 - Function Calling | 100.0% | 100.0% |
+| DeepSeek V3 - Function Calling | 100.0% | 100.0% ||深度搜索V3 -函数调用| 100.0% | 100.0% |
 | DeepSeek V3 - ReAct | 100.0% | 100.0% |
 | DeepSeek V3 - Act-only | 0.0% | 0.0% |
 
@@ -34,7 +34,7 @@
 
 | 技术 | 用途 |
 |------|------|
-| Python 3.8+ | 编程语言 |   | Python 3.8  | 编程语言 |
+| Python 3.8+ | 编程语言 |   | Python 3.8  | 编程语言 || Python 3.8  | 编程语言 |   | Python 3.8  | 编程语言 |
 | DeepSeek API | 大模型推理 |
 | τ-bench | Agent 评测框架 |
 | Function Calling | 工具调用机制 |
@@ -44,33 +44,33 @@
 ## 快速开始
 
 ### 1. 克隆项目
-```bash   ”“bash
-git clone https://github.com/mbabmmmm/DeepSeek-agent-tool-calling-bnchmark.git
-cd DeepSeek-agent-tool-calling-bnchmark
+```bash   ”“bash   “bash”;“bash
+git clone https://github.com/mbabmmmm/DeepSeek-Agent-ToolCalling-Benchmark.git
+cd DeepSeek-Agent-ToolCalling-Benchmark
 ```
 
 ### 2. 安装依赖
-```bash   ”“bash
+```bash   ”“bash   “bash”;“bash
 pip install -r requirements.txtPIP install -r requirements.txt
 ```
 
 ### 3. 配置 API Key
 在 `experiments/run.py` 中替换你的 DeepSeek API Key：
-```python   ”“python
-API_KEY = "your_deepseek_api_key"
+```python   ”“python      python   ”“python```python   ”“python
+API_KEY = "your_deepseek_api_key"API_KEY = "your_deepseek_api_key"
 ```
-或者在环境变量中设置：
-```bash   ”“bash
-export DEEPSEEK_API_KEY="your_api_key"
+或者在环境变量中设置：   “bash”;“bash
+```bash   ”“bash   “bash”;“bash   “bash”;“bash
+export DEEPSEEK_API_KEY="your_api_key"出口DEEPSEEK_API_KEY =“your_api_key"出口DEEPSEEK_API_KEY =“your_api_key"
 ```
 
 ### 4. 运行实验
-```bash   ”“bash
-python experiments/run.py
+```bash   ”“bash   “bash”;“bash
+python experiments/run.pypython实验/ run.py
 ```
 
 ### 5. 生成分析结果
-```bash   ”“bash
+```bash   ”“bash   “bash”;“bash
 python analysis/deepseek_analysis.py
 ```
 
